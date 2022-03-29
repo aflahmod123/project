@@ -1,0 +1,253 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+html{
+    background: white;
+}
+body {
+   
+    min-height: 250vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.headerBox{
+background-color: white;
+padding: 10px;
+margin: -10px;
+border-bottom-style:solid;
+border-bottom-color:gray ;
+border-bottom-width: medium;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 9;
+top: 0;
+position: sticky;
+
+}
+.imgBanner{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    margin-top: 12px;
+    position: relative;
+    left: 0px
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 10000; 
+    top: 0; 
+    left: 0;
+    background-color: #ffff; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    border-style: solid;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #111;
+    display: block;
+    transition: 0.3s;
+    z-index: 200;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    z-index: 50;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .openMenu{
+  border-radius: 3%;
+  background-color: #111;
+  color: White;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 10%;
+  padding: 15px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.openMenu:hover{
+    cursor: pointer
+}
+.imgBanner2 {
+position: relative;
+top: 100px
+}
+.Sub-title{
+    color:white;
+    font-size: 64px;
+     position:relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 5;
+     top: -200px; 
+}
+.Sub-text{
+    color:white;
+    font-size: 24px;
+     position:relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 5;
+     top: -100px; 
+}
+.container{
+    position: relative;
+    height: 0px;
+    
+    top:100px;
+    right:100px;
+}
+.img1{
+
+    position:relative;
+    top:500px;
+    left:300px;
+    width:25.5%;
+}
+.img_1{
+    width: 80%;
+}
+.Question1{
+    position:relative;
+    top:200px;
+    left:740px;
+}
+.questioon{
+    font-size:30px;
+    position:relative;
+    right:10px;
+
+}
+.para{
+    font-size: 20px;
+}
+.Question2{
+    position: relative;
+    left: 720px;
+    top:700px;
+    z-index:1
+}
+.questiooon{
+    font-size:30px;
+    position:relative;
+    right:10px;
+
+}
+.para2{
+    font-size: 20px;
+}
+.img2{
+    position:relative;
+    top:500px;
+    left:300px;
+    width:25.5%;
+}
+.Question3{
+    position: relative;
+    left: 1570px;
+    top:160px;
+    z-index:1
+}
+.questiion{
+    font-size:30px;
+    position:relative;
+    right:10px;
+
+}
+.para3{
+    font-size: 20px;
+}
+.img3{
+    position:relative;
+    top: -100px;
+    left:1200px;
+    width:25.5%;
+}
+.img33{
+    width:55%;
+}
+.Question4{
+    position: relative;
+    left: 1620px;
+    z-index:1;
+    bottom:1145px;
+}
+.questiooooon{
+    font-size:30px;
+    position:relative;
+}
+.para4{
+    font-size: 20px;
+}
+.img4{
+
+    position:relative;
+    bottom:1320px;
+    left:1200px;
+    width:25.5%;
+    
+}
+.EndOfPageButton{
+position: relative;
+top: 1850px;
+left: 850px;
+color:white;
+background-color: black;
+height: 50px;
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px 0;
+border-style: solid;
+border-color: black;
+
+}
+.mainQuestion{
+    color:crimson;
+    position:relative;
+    left: 900px;
+    top: 200px;
+}
+.LL{
+    position: relative;
+    left:800px;
+    top:250px;
+}
+.Foundation{
+    position:relative;
+    color:crimson;
+    left:850px;
+    top:500px
+}
+.EndOfPageButton:hover{
+    cursor: pointer
+}
